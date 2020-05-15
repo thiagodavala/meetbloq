@@ -1,9 +1,10 @@
 {
     "name": "Meet Bloq",
     "description": "Bloqueia qualquer solicitação de entrada no Google Meet",
-    "version": "2.0",
+    "version": "0.2",
     "permissions": [
-      "activeTab"
+      "activeTab",
+      "storage"
     ],
     "background": {
       "scripts": ["background.js"],
@@ -11,7 +12,7 @@
     },
     "browser_action": {
       "default_title": "Bloqueia os convites externos que chegarem no Google Meet",
-      "default_icon": "icon.png"
+      "default_icon": "icon1.png"
     },
     "manifest_version": 2
   }
